@@ -6,6 +6,8 @@ function numberOrder(a, b, c) {
 
     let numeros = [a, b, c];
 
+    if (a === b && a === c) console.log("Los numeros son iguales!");
+
     numeros.sort((a, b) => a - b);
 
     console.log(numeros);
